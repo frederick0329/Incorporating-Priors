@@ -7,7 +7,8 @@ Incorporating Priors with Feature Attribution on Text Classification (ACL2019)
 ```
 python train.py --num_classes=2 --output_dir='/tmp/attr/' --target_words_file='./data/wiki/identity.txt'
 ```
-By default, the command trains the model with joint loss. (attribution + classification)
+By default, the command trains the model with joint loss (attribution + classification) on
+./data/wiki/wiki_train.txt.
 
 Check 
 ```
